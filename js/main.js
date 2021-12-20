@@ -1,7 +1,6 @@
 
 
 function computerPlay(){
-  return(["Rock", "Paper", "Scissors"][1]);
   return(["Rock", "Paper", "Scissors"][~~(Math.random()*3)]);
 }
 const vlas = {"Rock":0, "Paper":1, "Scissors":2};
